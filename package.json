@@ -1,8 +1,6 @@
 {
   "name": "medical-consulting",
-
   "homepage": "https://amara-wd.github.io/medicalconsulting/",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
